@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='datavalidator',
+    name='korede-data-validator-tool',
     version='0.1',
     packages=find_packages(exclude=['tests']),  # Exclude the tests package
     install_requires=[],
