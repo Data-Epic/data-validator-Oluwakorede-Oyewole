@@ -1,72 +1,98 @@
-# Personal Data Validator
+# **Personal Data Validator**  
 
-## Overview
-Personal Data Validator is a Python package that provides an easy way to validate different types of personal data, including:
-- Email addresses
-- Phone numbers
-- Dates
-- URLs
+## **Overview**  
+Personal Data Validator is a Python package designed to efficiently validate various types of personal data, including:  
+- **Email addresses**  
+- **Phone numbers**  
+- **Dates**  
+- **URLs**  
 
-This package is built using Object-Oriented Programming (OOP) principles for better modularity and reusability.
+This package follows **Object-Oriented Programming (OOP)** principles, ensuring modularity, reusability, and easy integration into different projects.  
 
-## Installation
-To install the package, run:
+---
+
+## **Installation**  
+Install the package using:  
 ```bash
 pip install datavalidator
 ```
 
-## Usage
-First, import the `DataValidator` class:
+---
+
+## **Usage**  
+
+### **1️⃣ Import the Validator Class**  
 ```python
 from datavalidator.validator import DataValidator
 ```
 
-### Validating an Email
+### **2️⃣ Validate an Email**  
 ```python
 data = "example@email.com"
 validator = DataValidator(data)
 print(validator.validate_email())  # Output: True
 ```
 
-### Validating a Phone Number
+### **3️⃣ Validate a Phone Number**  
 ```python
 data = "+1-800-555-1234"
 validator = DataValidator(data)
 print(validator.validate_phone())  # Output: True
 ```
 
-### Validating a Date
+### **4️⃣ Validate a Date**  
 ```python
 data = "2024-03-14"
 validator = DataValidator(data)
 print(validator.validate_date())  # Output: True
 ```
 
-### Validating a URL
+### **5️⃣ Validate a URL**  
 ```python
 data = "https://example.com"
 validator = DataValidator(data)
 print(validator.validate_url())  # Output: True
 ```
 
-## Running Tests
-The project includes unit tests to ensure proper functionality. To run the tests, use:
+---
+
+## **Running Tests**  
+The package includes unit tests to ensure proper functionality. Run tests using:  
 ```bash
 pytest tests/
 ```
 
-## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature-branch`)
-3. Commit changes (`git commit -m "Added new feature"`)
-4. Push to the branch (`git push origin feature-branch`)
-5. Open a Pull Request
+---
 
-## License
-This project is licensed under the MIT License.
+## **Contributing**  
+Contributions are welcome! To contribute:  
+1. **Fork** the repository  
+2. **Create** a feature branch:  
+   ```bash
+   git checkout -b feature-branch
+   ```  
+3. **Commit** your changes:  
+   ```bash
+   git commit -m "Added new feature"
+   ```  
+4. **Push** to the branch:  
+   ```bash
+   git push origin feature-branch
+   ```  
+5. **Open a Pull Request**  
 
-## Author
-**Oluwakorede Oyewole**  
-Email: damisonoyewole@gmail.com
+---
+
+## **License**  
+This project is licensed under the **MIT License**.  
+
+---
+
+## **Author**  
+👤 **Oluwakorede Oyewole**  
+📧 Email: damisonoyewole@gmail.com  
+
+---
+
+
 
